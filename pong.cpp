@@ -1,8 +1,5 @@
 #include <SFML/Graphics.hpp>
-#include <SFML/Audio.hpp>
-#include <sstream>
-#include <cmath>
-#include <random>
+#include <SFML/Window.hpp>
 
 using namespace sf;
 

@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build Pong Game",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "-std=c++17",
+          "-I",
+          "C:/Users/Anirban Bose/Desktop/Timber/Test/SFML-3.0.0/include",
+          "-L",
+          "C:/Users/Anirban Bose/Desktop/Timber/Test/SFML-3.0.0/lib",
+          "-lsfml-graphics",
+          "-lsfml-window",
+          "-lsfml-system",
+          "main.cpp",
+          "-o",
+          "pong-game"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
